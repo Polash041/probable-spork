@@ -43,5 +43,7 @@ int main()
             }
         }
     }
-    path_print(1,5);
+    int st,end;
+    cin>>st>>end;
+    path_print(st,end);
 }
