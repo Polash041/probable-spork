@@ -45,8 +45,9 @@ int main()
         g[x].push_back(y);
         g[y].push_back(x);
     }
-
-    dfs_vis(1);
+    int start;
+    cin>>start;
+    dfs_vis(start);
 }
 /*
 8 10
