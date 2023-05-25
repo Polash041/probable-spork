@@ -74,12 +74,16 @@ int main()
      }
      cout << endl;
     }
-    bfs(1);
+    int src;
+    cin>>src;
+    bfs(src);
     for(int i=1; i<=node; i++)
     {
         cout<<i<<"->"<< parent[i] << endl;;
     }
-    path_print(1,5);
+    int st,end;
+    cin>>st>>end;
+    path_print(st,end);
 }
 /*
 10 9
